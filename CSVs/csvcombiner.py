@@ -2,7 +2,6 @@ import csv
 import os
 
 o = "fullcsv.csv"
-files = ['mnist_train.csv','mnist_test.csv']
 directory = os.getcwd()
 
 with open(o, 'w', newline='') as csvfile: 
